@@ -1,0 +1,33 @@
+.section-title.alt{
+  /*font-size: 100px;*/
+}
+.jc-container{
+  margin-top: 10px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.jc-container__contenido{
+  width: 50%;
+}
+.jc-container__img{
+  width: 50%;
+  text-align: end;
+}
+@media screen and (max-width: 768px){
+  .jc-container{
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  .jc-container__contenido{
+    width: 100%;
+  }
+  .jc-container__img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
